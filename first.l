@@ -8,7 +8,7 @@ DIGIT [0-9]
 %%
 
 begin {
-         printf("recognized KEYWORD:%\n",yytext);
+         printf("recognized KEYWORD:%s\n",yytext);
      }
 if {
       printf("recognized KEYWORD : %s\n", yytext);
